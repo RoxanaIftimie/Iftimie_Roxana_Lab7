@@ -14,4 +14,4 @@ namespace Proiect_Iftimie_Roxana_Valentina_CIGgr3.Models
         [Column(TypeName = "decimal(6, 2)")]
         public decimal Price { get; set; }
     } 
-}
+} 
