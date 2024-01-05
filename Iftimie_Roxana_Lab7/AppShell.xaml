@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Disabled">
     <TabBar>
         <ShellContent
- Title="Shopping Lists"
+ Title="Welcome"
  ContentTemplate="{DataTemplate local:MainPage}"
  />
         <ShellContent
@@ -19,5 +19,8 @@
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-
+    <ShellContent
+ Title="My Shopping Lists"
+ ContentTemplate="{DataTemplate local:ListEntryPage}"
+ />
 </Shell>
